@@ -1,6 +1,10 @@
 def main():
     x = int(input("What's X? "))
-    x = x * x
-    return x
+    print("X squared is:", square(x))
+
+
+def square(n):
+    return n * n
+
 
 main()
